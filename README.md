@@ -7,10 +7,14 @@ Our library app will allow us to manage a collection of books, organized by genr
 Throughout these lessons, we'll cover a range of topics including:
 
 - Building functional components with React
-- Managing state with the useState hook
+- Managing state with the `useState` hook
 - Lifting state up to share data between components
-- Adding routing to our app with react-router-dom
-- Refactoring our app to use styled-components for styling
+- Adding routing to our app with `react-router-dom`
+- Refactoring our app to use `styled-components` for styling
+
+By the end of these lessons, you'll have a solid understanding of how to build a React application, manage state with hooks, and add routing to create a single-page application. 
 
 > It is so important that you spend the time and effort reading the code and explanations _before_ you start writing. Copying and pasting saves you time today but makes tomorrow much more difficult. Use your mind to engage with the material - you are a professional.
+
+Okay. Let us tap in.
 
