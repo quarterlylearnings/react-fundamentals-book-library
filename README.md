@@ -1,6 +1,6 @@
 # COR Book Library
 
-This is a hands-on guide where you will learn how to build a simple but fully functional library application using React, building upon the foundation that we created in class with the `cor-library`. 
+This is a hands-on guide where you will learn how to build a simple but fully functional library application using React, building upon the foundation that we created in class with the [`cor-library`](https://github.com/quarterlylearnings/cor-library). You should start by forking that repo.
 
 Our library app will allow us to manage a collection of books, organized by genre on different shelves. We'll be able to add new books to a shelf, add new shelves to our library, and navigate through our collection using a clean and intuitive interface.
 
