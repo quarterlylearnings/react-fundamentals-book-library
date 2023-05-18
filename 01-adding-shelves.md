@@ -18,6 +18,26 @@ If there were 4 shelves, the code above would initialize the `expandedShelves` s
 
 So none of those four shelves should be expanded to display the books they each contain.
 
+<details>
+<summary>Why isn't the visibility of the books on a shelf something that is determined in the Shelf component? (click for an explanation)</summary>
+<br>
+
+The visibility of the books on a shelf could indeed be managed within the Shelf component itself. However, in this particular case, we've chosen to manage it in the Library component for a couple of reasons:
+
+1. Parent-Child Communication
+
+     By managing the visibility in the Library component, we can easily control the visibility of each Shelf from the parent component. This is a common pattern in React where the parent component manages the state for its child components.
+
+2. Single Source of Truth
+
+    It's generally a good practice in React to have a single source of truth for any piece of data that's shared across multiple components. In this case, the Library component is the single source of truth for the visibility of the books on each shelf.
+
+However, if the Shelf component had other child components that also needed to know about the visibility of the books, or if the visibility was a more integral part of the Shelf component's internal workings, it might make more sense to manage it within the Shelf component itself.
+
+The way you manage state in React is a choice, and the best approach can depend on a variety of factors, including the specific requirements of your app and your personal preferences as a developer.
+
+</details>
+
 ----
 
 Next, we need to modify the JSX returned by the `Library` component. Instead of mapping over the `shelves` array from the `Library`'s state and returning a `Shelf` component for each shelf, we'll return a list item for each shelf. This list item will include the shelf's genre and an arrow icon. 
@@ -135,3 +155,4 @@ In the next lesson, we'll learn how to update the `Library` state after a Book g
 
 > If you are unclear on what you just did, do not proceed. Re-read this lesson and look at the code line by line. If you need to ask questions, then do so but do not just click through in order to "finish".
 
+[I understand what I just wrote.](02-lifting-book-state-up.md)
