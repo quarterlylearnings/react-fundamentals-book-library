@@ -16,5 +16,5 @@ By the end of these lessons, you'll have a solid understanding of how to build a
 
 > It is so important that you spend the time and effort reading the code and explanations _before_ you start writing. Copying and pasting saves you time today but makes tomorrow much more difficult. Use your mind to engage with the material - you are a professional.
 
-Okay. Let us tap in.
+Okay. [Let us tap in.](01-adding-shelves.md)
 
