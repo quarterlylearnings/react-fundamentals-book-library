@@ -47,3 +47,5 @@ Here's how we can do this:
 Now, when a new book is added to a shelf, the state of the `Library` component is updated, keeping our state consistent across the application.
 
 In the next lesson, we'll experiment with routes for each Shelf. 
+
+[I'm Ready To Move On](03-adding-routes.md)
