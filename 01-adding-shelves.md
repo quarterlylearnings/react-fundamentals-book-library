@@ -134,3 +134,4 @@ You've now added a new shelf to your library 😮‍💨
 In the next lesson, we'll learn how to update the `Library` state after a Book gets added to a Shelf. 
 
 > If you are unclear on what you just did, do not proceed. Re-read this lesson and look at the code line by line. If you need to ask questions, then do so but do not just click through in order to "finish".
+
